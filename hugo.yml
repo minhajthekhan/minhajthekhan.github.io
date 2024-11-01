@@ -13,6 +13,7 @@ minify:
   minifyOutput: true
 
 params:
+  social: true
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: ExampleSite
   description: "ExampleSite description"
@@ -57,11 +58,11 @@ params:
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: Minhaj Uddin Khan
-    subtitle: "This is subtitle"
-    imageUrl: "https://avatars.githubusercontent.com/u/149482198?s=400&u=d1d43324274ea642b1aa83a333c85e72a1ee7b83&v=4"
-    imageWidth: 120
-    imageHeight: 120
+    title: کیا ہال ہے؟
+    subtitle: "I'm a dad, a developer, and as I write this, I'm thinking I should probably be doing something else."
+    imageUrl: "https://avatars.githubusercontent.com/u/149482198?s=400&u=53a123e932b7d1726bd495e5fa6ac7cf6ef91476&v=4"
+    imageWidth: 200
+    imageHeight: 200
     imageTitle: selfie
     buttons:
       - name: Posts
@@ -77,7 +78,8 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/minhajthekhan"
-
+    - name: linkedin
+      url: "https://www.linkedin.com/in/minhaj-khan-283897134/"
   analytics:
     google:
       SiteVerificationTag: "XYZabc"
@@ -107,20 +109,16 @@ params:
     minMatchCharLength: 0
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
     keys: ["title", "permalink", "summary", "content"]
-menu:
-  main:
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 30
+# menu:
+#   main:
+#     - identifier: categories
+#       name: categories
+#       url: /categories/
+#       weight: 10
+#     - identifier: tags
+#       name: tags
+#       url: /tags/
+#       weight: 20
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
