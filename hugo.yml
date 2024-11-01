@@ -56,13 +56,13 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
+    enabled: true # needs to be explicitly set
+    title: Minhaj Uddin Khan
     subtitle: "This is subtitle"
-    imageUrl: "<img location>"
+    imageUrl: "https://avatars.githubusercontent.com/u/149482198?s=400&u=d1d43324274ea642b1aa83a333c85e72a1ee7b83&v=4"
     imageWidth: 120
     imageHeight: 120
-    imageTitle: my image
+    imageTitle: selfie
     buttons:
       - name: Posts
         url: posts
@@ -75,12 +75,8 @@ params:
     Content: Welcome to my blog
 
   socialIcons:
-    - name: x
-      url: "https://x.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/minhajthekhan"
 
   analytics:
     google:
