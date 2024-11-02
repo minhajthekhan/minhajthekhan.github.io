@@ -55,19 +55,6 @@ params:
     icon: /apple-touch-icon.png
     iconHeight: 35
 
-  # profile-mode
-  profileMode:
-    enabled: true # needs to be explicitly set
-    title: 🚧 کیا ہال ہے؟ 🚧
-    subtitle: "I'm a dad, a developer, and as I write this, I'm thinking I should probably be doing something else."
-    imageUrl: "https://avatars.githubusercontent.com/u/149482198?s=400&u=53a123e932b7d1726bd495e5fa6ac7cf6ef91476&v=4"
-    imageWidth: 200
-    imageHeight: 200
-    imageTitle: selfie
-    buttons:
-      - name: Posts
-        url: posts
-
   # home-info mode
   homeInfoParams:
     Title: 🚧 کیا ہال ہے؟ 🚧
