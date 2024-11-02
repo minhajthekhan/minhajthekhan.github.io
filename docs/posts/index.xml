@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on ExampleSite</title>
-    <link>https://examplesite.com/posts/</link>
-    <description>Recent content in Posts on ExampleSite</description>
+    <title>Posts on MinhajTheKhan</title>
+    <link>minhajthekhan.github.io/posts/</link>
+    <description>Recent content in Posts on MinhajTheKhan</description>
     <image>
-      <title>ExampleSite</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <title>MinhajTheKhan</title>
+      <url>minhajthekhan.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>minhajthekhan.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.136.5</generator>
     <language>en</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="https://examplesite.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="minhajthekhan.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Init.</title>
+      <link>minhajthekhan.github.io/posts/my-first-post/</link>
+      <pubDate>Fri, 01 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>minhajthekhan.github.io/posts/my-first-post/</guid>
+      <description>*Cracks Fingers*</description>
+    </item>
   </channel>
 </rss>
