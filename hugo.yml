@@ -1,5 +1,5 @@
 baseURL: "https://minhajthekhan.github.io/"
-title: ExampleSite
+title: Minhaj Uddin Khan
 paginate: 5
 theme: PaperMod
 
@@ -15,8 +15,8 @@ minify:
 params:
   social: true
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: Minhaj Uddin Khan
+  description: "Minhaj Uddin Khan description"
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
   # author: ["Me", "You"] # multiple authors
@@ -58,7 +58,7 @@ params:
   # profile-mode
   profileMode:
     enabled: false # needs to be explicitly set
-    title: ExampleSite
+    title: Minhaj Uddin Khan
     subtitle: "This is subtitle"
     imageUrl: "<img location>"
     imageWidth: 120
