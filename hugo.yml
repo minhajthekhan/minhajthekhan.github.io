@@ -1,5 +1,5 @@
-baseURL: "https://examplesite.com/"
-title: ExampleSite
+baseURL: "minhajthekhan.github.io"
+title: MinhajTheKhan
 paginate: 5
 theme: PaperMod
 
@@ -15,8 +15,8 @@ minify:
 params:
   social: true
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: MinhajTheKhan
+  description: "Minhaj Uddin Khan"
   keywords: [Blog, Portfolio, PaperMod]
   author: Me
   # author: ["Me", "You"] # multiple authors
@@ -58,7 +58,7 @@ params:
   # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: کیا ہال ہے؟
+    title: 🚧 کیا ہال ہے؟ 🚧
     subtitle: "I'm a dad, a developer, and as I write this, I'm thinking I should probably be doing something else."
     imageUrl: "https://avatars.githubusercontent.com/u/149482198?s=400&u=53a123e932b7d1726bd495e5fa6ac7cf6ef91476&v=4"
     imageWidth: 200
@@ -67,31 +67,24 @@ params:
     buttons:
       - name: Posts
         url: posts
-      - name: Tags
-        url: tags
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: 🚧 کیا ہال ہے؟ 🚧
+    Content: "I'm a dad, a developer, and as I write this, I'm thinking I should probably be doing something else."
 
   socialIcons:
     - name: github
       url: "https://github.com/minhajthekhan"
     - name: linkedin
       url: "https://www.linkedin.com/in/minhaj-khan-283897134/"
-  analytics:
-    google:
-      SiteVerificationTag: "XYZabc"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
+    - name: medium
+      url: "https://medium.com/@minhajukhan"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
 
   editPost:
     URL: "https://github.com/<path_to_repo>/content"
