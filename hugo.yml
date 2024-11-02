@@ -72,8 +72,16 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: 🚧 کیا ہال ہے؟ 🚧
+    Content: "I'm a dad, a developer, and as I write this, I'm thinking I should probably be doing something else."
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/minhajthekhan"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/minhaj-khan-283897134/"
+    - name: medium
+      url: "https://medium.com/@minhajukhan"
 
   socialIcons:
     - name: x
