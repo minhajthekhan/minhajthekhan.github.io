@@ -57,18 +57,18 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: Minhaj Uddin Khan
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
+    enabled: true # needs to be explicitly set
+    title: Hey, I'm Minhaj
+    subtitle: "I'm a dad, a developer, and as I write this, I'm thinking I should probably be doing something else"
+    imageUrl: "https://avatars.githubusercontent.com/u/149482198?s=400&u=53a123e932b7d1726bd495e5fa6ac7cf6ef91476&v=4"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
     buttons:
       - name: Posts
         url: posts
-      - name: Tags
-        url: tags
+      - name: About
+        url: about
 
   # home-info mode
   homeInfoParams:
@@ -96,10 +96,10 @@ params:
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-  editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+  # editPost:
+  #   URL: "https://github.com/<path_to_repo>/content"
+  #   Text: "Suggest Changes" # edit text
+  #   appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
@@ -118,10 +118,9 @@ menu:
       name: categories
       url: /categories/
       weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 20
+    - identifier: about
+      name: about
+      url: /about/
     - identifier: example
       name: example.org
       url: https://example.org
