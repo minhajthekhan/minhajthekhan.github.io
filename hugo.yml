@@ -26,7 +26,7 @@ params:
   disableThemeToggle: false
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
@@ -60,7 +60,7 @@ params:
     enabled: true # needs to be explicitly set
     title: Hey 👋🏼 I'm Minhaj!  
     subtitle: "I'm a dad, a developer, and as I write this, I'm thinking I should probably be doing something else"
-    imageUrl: "https://avatars.githubusercontent.com/u/149482198?s=400&u=53a123e932b7d1726bd495e5fa6ac7cf6ef91476&v=4"
+    imageUrl: "/profile-pic.png"
     imageWidth: 180
     imageHeight: 180
     imageTitle: my image
