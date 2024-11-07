@@ -1,7 +1,7 @@
 ---
 author: ["Minhaj U. Khan"]
 title: "Specifications Pattern 📄"
-date: "2024-11-05"
+date: "2024-11-07"
 description: "An attempt to explain the specifications pattern from the Domain Driven Design Book"
 ShowToc: false
 TocOpen: false
@@ -110,16 +110,7 @@ func (r *repository) GetLogoBySpecification(ctx context.Context, spec Specificat
 	}
 
 	defer rows.Close()
-
-	positions := make([]string, 0)
-	for rows.Next() {
-		var shelfPosition string
-		if err := rows.Scan(&shelfPosition); err != nil {
-			return nil, err
-		}
-		positions = append(positions, shelfPosition)
-	}
-	return positions, nil
+	return r.scanRowsAndGetPositions(rows)
 }
 ```
 
