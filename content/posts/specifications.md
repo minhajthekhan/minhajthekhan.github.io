@@ -5,8 +5,6 @@ date: "2024-11-07"
 description: "An attempt to explain the specifications pattern from the Domain Driven Design Book"
 ShowToc: false
 TocOpen: false
-cover:
-    image: "/profile-pic.png#center"
 ---
 {{< figure src="https://cdn.britannica.com/48/182648-050-6C20C6AB/LEGO-bricks.jpg" width="50%" >}}
 
