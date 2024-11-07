@@ -52,7 +52,7 @@ func (r *repository) GetLegoShelfPositions(ctx context.Context, d1, d2 LegoDimen
 }
 ```
 
-## Moment of Reflection
+## Brain Time
 
 Imagine you get another draft of the requirement and some amends have been made. To make those changes, you need to open
 up this repository function and make changes to the query. Each time the requirement changes, your repository function needs to be modified.
