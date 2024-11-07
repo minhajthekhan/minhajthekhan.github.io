@@ -115,7 +115,7 @@ params:
 menu:
   main:
     - identifier: about
-      name: about
+      name: About
       url: /about/
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
