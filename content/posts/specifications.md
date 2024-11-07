@@ -57,8 +57,7 @@ func (r *repository) GetLegoShelfPositions(ctx context.Context, d1, d2 LegoDimen
 Imagine you get another draft of the requirement and some amends have been made. To make those changes, you need to open
 up this repository function and make changes to the query. Each time the requirement changes, your repository function needs to be modified.
 
-At this point, you’ve taken the "business" requirements and translated them into a "repository" function in a query. Ideally, changes to the business
-workflow 
+At this point, you’ve taken the "business" requirements and translated them into a "repository" function in a query.
 
 ### Enter Specifications Pattern
 
