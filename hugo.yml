@@ -14,7 +14,6 @@ minify:
 
 params:
   social: true
-  cover: "/profile-pic.png"
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Minhaj Uddin Khan
   description: "Minhaj Uddin Khan description"
@@ -45,11 +44,11 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "/favicon_io/favicon.ico"
+    favicon16x16: "/favicon_io/favicon-16x16.png"
+    favicon32x32: "/favicon_io/favicon-16x16.png"
+    apple_touch_icon: "/favicon_io/apple-touch-icon.png"
+    safari_pinned_tab: "/favicon_io/favicon.ico"
 
   label:
     text: "Home"
