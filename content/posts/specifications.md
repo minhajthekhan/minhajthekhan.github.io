@@ -1,6 +1,6 @@
 ---
 author: ["Minhaj U. Khan"]
-title: "Specifications Pattern"
+title: "Specifications Pattern 📄"
 date: "2024-11-05"
 description: "An attempt to explain the specifications pattern from the Domain Driven Design Book"
 ShowToc: false
@@ -34,43 +34,21 @@ WHERE (color = 'red' OR color = 'white')
 and then you put that in code.
 
 ```go
-func (r *repository) GetLegoShelfPositions(
-	ctx context.Context,
-	firstLegoDimension, secondLegoDimension entities.LegoDimension,
-	colors []string,
-	limit int,
-) ([]string, error) {
-
+func (r *repository) GetLegoShelfPositions(ctx context.Context, d1, d2 LegoDimension, colors []string, limit int) ([]string, error) {
+	args := []any{colors, d1.Size, d1.Height, d2.Height, d2.Size, limit}
 	rows, err := r.db.Query(`
 		SELECT shelf_position
 		FROM legos
 		WHERE color = ANY($1) 
 		AND ((size = $2 AND height < $3) OR (size = $4 AND height > $5)) LIMIT $6
-	`, colors,
-		firstLegoDimension.Size,
-		firstLegoDimension.Height,
-		secondLegoDimension.Size,
-		secondLegoDimension.Height,
-		limit,
-	)
-
+	`, args...)
 	if err != nil {
 		return nil, err
 	}
 
 	defer rows.Close()
-
-	positions := make([]string, 0)
-	for rows.Next() {
-		var shelfPosition string
-		if err := rows.Scan(&shelfPosition); err != nil {
-			return nil, err
-		}
-		positions = append(positions, shelfPosition)
-	}
-	return positions, nil
+	return r.scanRowsAndGetPositions(rows)
 }
-
 ```
 
 ## Moment of Reflection
@@ -111,33 +89,14 @@ OR better yet, move the query, closer to the business specification
 
 ```go
 func (s *LegoSpecification) AsSQL() (query string, args []any) {
-	// Initial part of the query
-	args = []any{s.colors} 
-	query = "SELECT shelf_position FROM legos WHERE color = ANY($1)"
+	args = []any{}
+	query = "SELECT shelf_position FROM legos"
 
-	// Prepare dynamic conditions for size and height
-	dimensionClauses := []string{}
-	for _, dimension := range s.dimensions {
-
-		sizeArg := len(args) + 1
-		heightArg := len(args) + 2
-
-		// Append condition for each dimension
-		dimensionClauses = append(dimensionClauses, fmt.Sprintf("(size = $%d AND height < $%d)", sizeArg, heightArg))
-
-		// Append size and height values to args
-		args = append(args, dimension.Size, dimension.Height)
-	}
-
-	if len(dimensionClauses) > 0 {
-		query += " AND (" + strings.Join(dimensionClauses, " OR ") + ")"
-	}
-
-	args = append(args, s.notMoreThan)
-	query += fmt.Sprintf(" LIMIT $%d", len(args))
+	query, args = s.buildColorQuery(query, args)
+	query, args = s.buildDimensionsQuery(query, args)
+	query, args = s.buildNotMoreThanQuery(query, args)
 	return query, args
 }
-
 ```
 
 And finally, you can now simple plug this specification in your “repository” layer.
@@ -165,3 +124,4 @@ func (r *repository) GetLogoBySpecification(ctx context.Context, spec Specificat
 ```
 
 Voila! All the business removed from the repository layer.
+You can look at the complete code [here](https://github.com/minhajthekhan/scratchpad/tree/main/specifications)
