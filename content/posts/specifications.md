@@ -1,24 +1,27 @@
 ---
 author: ["Minhaj U. Khan"]
-title: "Specifications Pattern 📄"
+title: "Specifications  📄"
 date: "2024-11-07"
-description: "An attempt to explain the specifications pattern from the Domain Driven Design Book"
+description: "A story of shipping lego blocks to Switzerland"
 ShowToc: false
 TocOpen: false
+cover:
+    image: "https://cdn.britannica.com/48/182648-050-6C20C6AB/LEGO-bricks.jpg"
 ---
-{{< figure src="https://cdn.britannica.com/48/182648-050-6C20C6AB/LEGO-bricks.jpg" width="50%" >}}
 
 Your company manages an inventory of lego blocks. 
 
 One fine day, the company gets a requirement to deliver the legos to Switzerland that are
 
-- either red or white
-- are of sizes 6x10 or 5x5
-- if they are 5x5, they must be taller than 2cm
-- if they are 6x10, they must be shorter than 3cm
-- not more than 8k in total
+- Either red or white.
+- Are of sizes 6x10 or 5x5.
+- If they are 5x5, they must be taller than 2cm.
+- If they are 6x10, they must be shorter than 3cm.
+- Not more than 8k in total.
 
-You, as a software engineer in the company is tasked write an API that takes in requirements like these, and return lego shelf location so the warehouse can pack and ship.
+You, as a software engineer in the company is tasked write an API that takes in these requirements, 
+and outputs the lego's **shelf location**
+so the warehouse can pack and ship.
 
 You write a simple query
 
@@ -51,21 +54,34 @@ func (r *repository) GetLegoShelfPositions(ctx context.Context, d1, d2 LegoDimen
 
 ## Moment of Reflection
 
-At this point now, you’ve taken a [“business”](https://thecodest.co/dictionary/business-logic-layer/) requirement, and wired them into the [“repository”](https://medium.com/@pererikbergman/repository-design-pattern-e28c0f3e4a30) layer. 
+Imagine you get another draft of the requirement and some amends have been made. To make those changes, you need to open
+up this repository function and make changes to the query. Each time the requirement changes, your repository function needs to be modified.
 
-**When faced with situations where you want to query “business objects” that match a certain “criteria” - use the Specifications pattern.**
+At this point, you’ve taken the "business" requirements and translated them into a "repository" function in a query. Ideally, changes to the business
+workflow 
 
-The specification pattern is asking whether a business object satisfies a set of requirements.
+### Enter Specifications Pattern
+
+A nice piece on where the specifications pattern helps from [Martin Fowler](https://www.martinfowler.com/apsupp/spec.pdf):
+
+> You need to select a subset of objects based on some criteria, and to refresh the selection at various times
+> 
 
 For example, in our case of Legos that need to be shipped to Switzerland:
-
 ```go
 swissSpecification.IsSatisfiedBy(lego)
 ```
 
-The implementation is also super simple.
+Implementing the specificiation directly from the requirements:
 
 ```go
+
+type LegoSpecification struct {
+	colors      []string
+	dimensions  []LegoDimension
+	notMoreThan int
+}
+
 func (s *LegoSpecification) IsSatisfiedBy(lego entities.Lego) bool {
 	if !slices.Contains(s.colors, lego.Color) {
 		return false
@@ -80,10 +96,8 @@ func (s *LegoSpecification) IsSatisfiedBy(lego entities.Lego) bool {
 }
 ```
 
-At this point, you can also fetch all the legos and filter them through
-the specification
-
-OR better yet, move the query, closer to the business specification
+We can also now add an API on top of the `Specification`
+so that the repository can use it to _select a subset of objects based on given criteria._
 
 ```go
 func (s *LegoSpecification) AsSQL() (query string, args []any) {
@@ -97,7 +111,8 @@ func (s *LegoSpecification) AsSQL() (query string, args []any) {
 }
 ```
 
-And finally, you can now simple plug this specification in your “repository” layer.
+Finally,
+wiring it up 
 
 ```go
 func (r *repository) GetLogoBySpecification(ctx context.Context, spec Specification[Lego]) ([]string, error) {
@@ -112,5 +127,9 @@ func (r *repository) GetLogoBySpecification(ctx context.Context, spec Specificat
 }
 ```
 
-Voila! All the business removed from the repository layer.
-You can look at the complete code [here](https://github.com/minhajthekhan/scratchpad/tree/main/specifications)
+
+You can look at the complete code [here](https://github.com/minhajthekhan/scratchpad/blob/main/specifications/example/pkg/legos/lego.go). 
+
+Happy Coding!
+
+![gif](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExaHZ3Y250bm05ODgwZWM5N2M2eG5kM3lkZW9jcmY5ejZqcW92MnltcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/o0vwzuFwCGAFO/giphy.gif#center)

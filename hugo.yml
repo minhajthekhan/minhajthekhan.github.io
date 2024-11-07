@@ -14,6 +14,7 @@ minify:
 
 params:
   social: true
+  cover: "/profile-pic.png"
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Minhaj Uddin Khan
   description: "Minhaj Uddin Khan description"
@@ -92,9 +93,9 @@ params:
       SiteVerificationTag: "XYZabc"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
 
   # editPost:
   #   URL: "https://github.com/<path_to_repo>/content"
