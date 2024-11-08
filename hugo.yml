@@ -85,11 +85,7 @@ params:
 
   analytics:
     google:
-      SiteVerificationTag: "XYZabc"
-    bing:
-      SiteVerificationTag: "XYZabc"
-    yandex:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "G-Z3Q5T40JTK"
 
   cover:
     hidden: false # hide everywhere but not in structured data
