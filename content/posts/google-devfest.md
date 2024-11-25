@@ -18,7 +18,7 @@ cover:
 
 I attended a talk from Danny Preussler from Soundcloud in Google DevFest about Testing and the above mentioned were a few key takeaways for me. 
 
-I don’t know whether religiously following test-driven development (I myself do it at work) or just writing tests for the top most layer is enough. I will not try to advocate what is best, but I would want to share how I feel about the topic.
+I don’t know whether religiously following test-driven development (I myself do it at work) or just writing tests for the application/service layer is enough. I will not try to advocate what is best, but I would want to share how I feel about the topic.
 
 What I resonated with me the most, was the idea of **having tests that are focused on the behavior, rather than the structure of the code**. To put in more concrete terms, when you have a layered architecture [^1] , changing a very small thing, like a string to an object, may start to break the 7 - 8 test cases you’ve written in each layer. While changing the code maybe very simple, fixing all the broken tests in each layer is cumbersome and time-consuming.
 
