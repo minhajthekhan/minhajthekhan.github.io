@@ -13,6 +13,7 @@ minify:
   minifyOutput: true
 
 params:
+  comments: true
   social: true
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Minhaj Uddin Khan
@@ -35,7 +36,6 @@ params:
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
-  comments: false
   hidemeta: false
   hideSummary: false
   showtoc: false
