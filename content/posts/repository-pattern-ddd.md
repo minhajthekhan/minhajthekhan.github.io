@@ -1,6 +1,6 @@
 ---
 author: ["Minhaj U. Khan"]
-title: "Designing Repository Patterns Better"
+title: "DDD Repositories gone wrong"
 date: "2024-11-29"
 description: "Lessons learnt from writing repositories the non DDD way"
 ShowToc: false
