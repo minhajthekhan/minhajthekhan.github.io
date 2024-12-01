@@ -70,10 +70,6 @@ params:
       - name: About
         url: about
 
-  # home-info mode
-  homeInfoParams:
-    Title: 🚧 کیا ہال ہے؟ 🚧
-    Content: "I'm a dad, a developer, and as I write this, I'm thinking I should probably be doing something else."
 
   socialIcons:
     - name: github
@@ -82,6 +78,10 @@ params:
       url: "https://www.linkedin.com/in/minhaj-khan-283897134/"
     - name: medium
       url: "https://medium.com/@minhajukhan"
+    - name: x
+      url: "https://x.com/minhajthekhan"
+    - name: instagram
+      url : "https://www.instagram.com/minhajthekhan"
 
   analytics:
     google:
@@ -121,5 +121,8 @@ markup:
     # anchorLineNos: true
     # codeFences: true
     # guessSyntax: true
-    # lineNos: true
+    lineNos: true
     # style: monokai
+
+
+

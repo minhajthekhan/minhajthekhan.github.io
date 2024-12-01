@@ -150,10 +150,7 @@ func NewPizzaOrderService(r repository.Repository) { ... }
 func NewRepository(db ExecutorTx) *Repository { ... }
 ```
 
----
-
 "Simplicity is the ultimate sophistication." — Leonardo da Vinci
-
 
 
 ### Useful links:
