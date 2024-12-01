@@ -19,7 +19,7 @@ pizzaRepository.CreatePizza(ctx, pizza)
 toppingsRepository.CreateToppings(ctx, pizza.ID, toppings)
 ```
 
-Theres a catch when you make the order: if the above two operations don’t happen in a transaction, and the latter fails, you can expect the pizza to be delivered — without toppings 🧑‍🍳
+Theres a catch when you make the order: if the above two operations don’t happen in a transaction, and the latter fails, you can expect the pizza to be delivered — without toppings. 🧑‍🍳
 
 To fix this, a database transaction needs to be created and shared between the two repositories. 
 
@@ -45,7 +45,7 @@ Lets talk about the tests.
 In order to test this piece of code, you need to mock the following:
 
 1. the transaction factory
-2. the transaction that the factory builds.
+2. the transaction that the factory builds
 
 Adding a lot of boilerplate code to the tests can become annoying too quickly. 
 
@@ -86,7 +86,7 @@ as more dependencies go into the pizza ordering service, the constructor gets fa
 > *Be conservative in what you do, be liberal in what you accept from others - Jon Postel*
 > 
 
-The principle is also known as **Postel's law**, after [Jon Postel](https://en.wikipedia.org/wiki/Jon_Postel), who used the wording in an early specification of [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol).[[1]](https://en.wikipedia.org/wiki/Robustness_principle#cite_note-1). This same principle is also mentioned in the book [**100 Go Mistakes and How to Avoid Them](https://www.oreilly.com/library/view/100-go-mistakes/9781617299599/)** by Teiva Harsanyi.
+The principle is also known as **Postel's law**, after [Jon Postel](https://en.wikipedia.org/wiki/Jon_Postel), who used the wording in an early specification of [TCP](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)[[1]](https://en.wikipedia.org/wiki/Robustness_principle#cite_note-1). This same principle is also mentioned in the book [100 Go Mistakes and How to Avoid Them](https://www.oreilly.com/library/view/100-go-mistakes/9781617299599/) by Teiva Harsanyi.
 
 By this principle, we should be accepting abstractions *(interfaces)* and returning concrete implementations *(structs)*
 
@@ -104,17 +104,21 @@ func NewPizzaRepository() PizzaRepository { ... }
 
 To make this testable, the function’s return type has to be an abstraction (`interface` ) so that it can be mocked. If the function returns a concrete implementation, the mocks would fail because the return type expects to be a `*Repository` but is a `*MockRepository`
 
+## Transactions outside Repositories
+
+Repositories hide infrastructure detail. A database transaction is the implementation detail that a repository should abstract. Say the database was not an SQL database with two tables, but a collection in a NoSQL database where pizza and toppings live in the same document. In that scenario, the service creating and passing the transactions aren't valid anymore. 
+
+The service creating database transaction hinted for bad design.
+
 ---
 
 ## What went wrong?
 
-The answer is hidden in the understanding of what a repository aims to be.
-
-***Repositories should not reflect the underlying database tables, but serve a way to retrieve domain models.*** 
+***Repositories should not reflect the underlying database tables, but serve a way to interact with domain models.*** 
 
 The problem with our design is that we mapped a repository per database table. 
 
-We shouldn’t ask the repository to create a pizza row and create its pizza toppings rows, rather, we should ask the repository to save a pizza order. 
+We shouldn’t ask the repository to create a pizza row and create its pizza toppings rows, rather, we should ask the repository to save a pizza when its orderred. 
 
 A pizza order can contain the pizza and its toppings together — this is called an [aggregate](https://martinfowler.com/bliki/DDD_Aggregate.html) in the DDD world. Martin Fowler puts it in a simple words:
 
@@ -158,4 +162,4 @@ func NewRepository(db ExecutorTx) *Repository { ... }
 
 - [Martin Fowler - Aggregates](https://martinfowler.com/bliki/DDD_Aggregate.html)
 
-- [Wisdom from Reddit on Transactions through Repository Layer](https://www.reddit.com/r/golang/comments/xe2zk4/transactions_in_repository_layer/)
+- [Transactions in Repository Layer](https://www.reddit.com/r/golang/comments/xe2zk4/transactions_in_repository_layer/)
