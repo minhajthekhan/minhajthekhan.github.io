@@ -5,8 +5,6 @@ date: "2024-11-07"
 description: "A story of shipping lego blocks to Switzerland"
 ShowToc: false
 TocOpen: false
-cover:
-    image: "https://cdn.britannica.com/48/182648-050-6C20C6AB/LEGO-bricks.jpg"
 ---
 
 Your company manages an inventory of lego blocks. 

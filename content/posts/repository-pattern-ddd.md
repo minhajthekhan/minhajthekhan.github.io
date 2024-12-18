@@ -5,8 +5,6 @@ date: "2024-11-29"
 description: "Lessons learnt from writing repositories the non DDD way"
 ShowToc: false
 TocOpen: true
-cover:
-    image: "/julian-rojas-dattwyler-LppAkC7s6u4-unsplash.jpg"
 ---
 
 
