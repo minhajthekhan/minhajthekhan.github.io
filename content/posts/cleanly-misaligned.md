@@ -2,9 +2,8 @@
 author: ["Minhaj U. Khan"]
 title: "Cleanly Misaligned"
 date: "2024-12-17"
-description: "A story of going faster than you should"
-ShowToc: true
-TocOpen: true
+ShowToc: false
+TocOpen: false
 ---
 
 
