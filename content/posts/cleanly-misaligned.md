@@ -4,6 +4,8 @@ title: "Cleanly Misaligned"
 date: "2024-12-17"
 ShowToc: false
 TocOpen: false
+tags: ["Lessons", "DDD"]
+
 ---
 
 

@@ -5,6 +5,7 @@ date: "2024-11-07"
 description: "A story of shipping lego blocks to Switzerland"
 ShowToc: false
 TocOpen: false
+tags: ["Go", "DDD"]
 ---
 
 Your company manages an inventory of lego blocks. 

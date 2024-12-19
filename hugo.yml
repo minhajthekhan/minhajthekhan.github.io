@@ -110,9 +110,15 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
     - identifier: about
       name: About
       url: /about/
+    - identifier: tags
+      name: Tags
+      url: tags/
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:

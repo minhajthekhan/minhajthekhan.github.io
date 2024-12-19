@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Lessons on Minhaj Uddin Khan</title>
+    <link>https://minhajthekhan.github.io/tags/lessons/</link>
+    <description>Recent content in Lessons on Minhaj Uddin Khan</description>
+    <image>
+      <title>Minhaj Uddin Khan</title>
+      <url>https://minhajthekhan.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://minhajthekhan.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.136.5</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 17 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://minhajthekhan.github.io/tags/lessons/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cleanly Misaligned</title>
+      <link>https://minhajthekhan.github.io/posts/cleanly-misaligned/</link>
+      <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://minhajthekhan.github.io/posts/cleanly-misaligned/</guid>
+      <description>&lt;p&gt;In the last quarter of 2024, I found myself enjoying re-reading the Domain-Driven Design book and was learning from examples how of the code can potentially be structured, and I tried to apply these patterns at work in my own time and moved things around a bit. It was both, a fun exercise and, a learning experience for me &amp;ndash; and the code was becoming more and more by the book.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

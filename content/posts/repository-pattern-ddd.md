@@ -5,6 +5,7 @@ date: "2024-11-29"
 description: "Lessons learnt from writing repositories the non DDD way"
 ShowToc: false
 TocOpen: true
+tags: ["Go", "DDD"]
 ---
 
 

@@ -5,6 +5,8 @@ date: "2024-11-23"
 description: "My after thoughts on the wonderful talk on Testing at Google Devfest 2024 by Danny Preussler from Soundcloud"
 ShowToc: true
 TocOpen: true
+tags: ["Testing"]
+
 ---
 
 
