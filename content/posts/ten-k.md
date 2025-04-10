@@ -12,7 +12,7 @@ On 3rd April, 2025, I ran continuously for an hour and seventeen minutes for my 
 
 It all started last year; I was not physically active at all. The only sport I played was table tennis and that too, irregularly. I am from Karachi, Pakistan, and like most Karachites, we’re not one for healthy eating. Add smoking as the cherry on top. Yearly visit to the doctor informed me of  my high cholesterol levels. Careless eating and excessive smoking were doing their part. I needed to do better.
 
-Around the same time, one of my colleagues was preparing for a marathon. He talked of his trainings schedules and the many kilometres he had to run. I was always impressed to learn how many kms one can run, given I had ran zero, ever.
+Around the same time, one of my colleagues was preparing for a marathon. He talked of his training schedules and the many kilometers he had to run. I was always impressed to learn how many kms one can run, given I had ran zero, ever.
 
 That nudged me over. I wondered if I also should run to get in a better shape. It takes nothing to start, just some nice shoes and — yeah thats pretty much it.
 
