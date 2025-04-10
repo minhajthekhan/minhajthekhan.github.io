@@ -33,3 +33,6 @@ At the end of the day, having each component fully unit tested does not mean tha
 > 
 
 [^1]: The layers can be imagined as application layer, business/domain layer and the repository layer.
+
+
+{{< figure src="/1732379541081.jpeg#center" caption="" width="100%" >}}

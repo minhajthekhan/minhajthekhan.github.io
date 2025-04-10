@@ -11,21 +11,22 @@
     </image>
     <generator>Hugo -- 0.136.5</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 22 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://minhajthekhan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Running my first 10k</title>
+      <link>https://minhajthekhan.github.io/posts/ten-k/</link>
+      <pubDate>Sat, 05 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://minhajthekhan.github.io/posts/ten-k/</guid>
+      <description>&lt;p&gt;On 3rd April, 2025, I ran continuously for an hour and seventeen minutes for my first 10k. Man was I happy!&lt;/p&gt;
+&lt;p&gt;It all started last year; I was not physically active at all. The only sport I played was table tennis and that too, irregularly. I am from Karachi, Pakistan, and like most Karachites, we’re not one for healthy eating. Add smoking as the cherry on top. Yearly visit to the doctor informed me of  my high cholesterol levels. Careless eating and excessive smoking were doing their part. I needed to do better.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>🏠 Ghar -  گھر</title>
       <link>https://minhajthekhan.github.io/posts/home/</link>
       <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
       <guid>https://minhajthekhan.github.io/posts/home/</guid>
       <description>Vent about the small things back home</description>
-    </item>
-    <item>
-      <title>Cleanly Misaligned</title>
-      <link>https://minhajthekhan.github.io/posts/cleanly-misaligned/</link>
-      <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>https://minhajthekhan.github.io/posts/cleanly-misaligned/</guid>
-      <description>&lt;p&gt;In the last quarter of 2024, I found myself enjoying re-reading the Domain-Driven Design book and was learning from examples how of the code can potentially be structured, and I tried to apply these patterns at work in my own time and moved things around a bit. It was both, a fun exercise and, a learning experience for me &amp;ndash; and the code was becoming more and more by the book.&lt;/p&gt;</description>
     </item>
     <item>
       <title>DDD Repositories and Transactions</title>
@@ -40,13 +41,6 @@
       <pubDate>Sat, 23 Nov 2024 00:00:00 +0000</pubDate>
       <guid>https://minhajthekhan.github.io/posts/google-devfest/</guid>
       <description>My after thoughts on the wonderful talk on Testing at Google Devfest 2024 by Danny Preussler from Soundcloud</description>
-    </item>
-    <item>
-      <title>Specifications  📄</title>
-      <link>https://minhajthekhan.github.io/posts/specifications/</link>
-      <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://minhajthekhan.github.io/posts/specifications/</guid>
-      <description>A story of shipping lego blocks to Switzerland</description>
     </item>
     <item>
       <title>About</title>

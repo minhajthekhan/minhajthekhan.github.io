@@ -20,12 +20,5 @@
       <guid>https://minhajthekhan.github.io/posts/repository-pattern-ddd/</guid>
       <description>Lessons learnt from writing repositories the non DDD way</description>
     </item>
-    <item>
-      <title>Specifications  📄</title>
-      <link>https://minhajthekhan.github.io/posts/specifications/</link>
-      <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>https://minhajthekhan.github.io/posts/specifications/</guid>
-      <description>A story of shipping lego blocks to Switzerland</description>
-    </item>
   </channel>
 </rss>
