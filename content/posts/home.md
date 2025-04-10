@@ -26,4 +26,8 @@ You're taking the bus back to your apartment; the bus is noisy from the chatter.
 
 Once I moved out, I realized the value of all the small things back home; most of all, to be able to talk -- often -- in your mother tongue, but more importantly, to be able to speak your heart.
 
+اب تو اپنی محفل میں کچھ تاجر ہیں کچھ سوداگر
+
+جن پر ہمکو فخر تھا وہ سب دوست گۓ وہ یار گۓ
+
 https://www.youtube.com/shorts/u3NWvERs8e4
