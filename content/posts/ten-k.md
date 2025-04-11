@@ -26,7 +26,7 @@ During the runs — I could sense my heart rate jumping up very quickly. Pauses 
 
 Even though all of this sounds awful, I started enjoying the process. I looked forward to the time I could go suffer. The oldest trick in the book to keep one motivated is to set goals. I, in December 2024, registered myself for the [BMW Berlin 5k](https://www.bmw-berlin-marathon.com/en/registration/generali-5k) happening in September 2025. 
 
-I try to avoid being an impulse buyer, and I was avoiding buying a nice pair of shoes since I started running in September, only because I didn’t know if I would commit to it. I think I was over that phase now, I was enjoying running, I had a goal in front — It was about time that I buy myself a nice pair of shoes and a track suit. 
+I try to avoid being an impulse buyer, and I was avoiding buying a nice pair of shoes since I started running in September, only because I didn’t know if I would commit to it. I think I was over that phase now, I was enjoying running, I had a goal in front — It was about time that I buy myself a nice pair of shoes. 
 
 In the first few months, I ran as fast as I could, only to realise that it’s not the best approach. I learnt that I was supposed to run very slow, and run consistently. I think to run slowly, deliberately, when you can technically run faster — instills in you a kind of calmness. It delays gratification of you achieving the nice running numbers. It humbles you good. It prepares you to keep on running long instead of short and quick.
 
