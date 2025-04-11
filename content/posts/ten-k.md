@@ -24,13 +24,9 @@ I wanted to test myself if I could commit to running; or whether it would turn p
 
 During the runs — I could sense my heart rate jumping up very quickly. Pauses were quite often due to breathlessness, and seldom I  would feel pain in my abdomen. I would come home short of breath and would sit for 10 minutes before I was able to do anything. I used to run at night; can’t think of a reason why — probably because I could sleep better if I got tired. I would wake up the next day with sore legs almost everyday. I guess I didn’t decide that I would skip a day, it was inevitable.
 
-Even though all of this sounds awful, I started enjoying the process. I looked forward to the time I could go suffer. So, as for the natural progression, I set myself a goal. I, in December 2024, registered myself for the [BMW Berlin 5k](https://www.bmw-berlin-marathon.com/en/registration/generali-5k) in September 2025. 
+Even though all of this sounds awful, I started enjoying the process. I looked forward to the time I could go suffer. The oldest trick in the book to keep one motivated is to set goals. I, in December 2024, registered myself for the [BMW Berlin 5k](https://www.bmw-berlin-marathon.com/en/registration/generali-5k) happening in September 2025. 
 
-I was convinced that I like running and that it has become part of my routine. Next; suit up.
-
-I try to avoid being an impulse buyer, and I was avoiding buying a nice pair of shoes since I started running in September, only because I didn’t know if I could commit to it. 
-
-I think I was over that phase now, I was enjoying running, I had a goal in front — It was about time that I bought myself a nice pair of shoes and a track suit. so I did. 
+I try to avoid being an impulse buyer, and I was avoiding buying a nice pair of shoes since I started running in September, only because I didn’t know if I would commit to it. I think I was over that phase now, I was enjoying running, I had a goal in front — It was about time that I buy myself a nice pair of shoes and a track suit. 
 
 In the first few months, I ran as fast as I could, only to realise that it’s not the best approach. I learnt that I was supposed to run very slow, and run consistently. I think to run slowly, deliberately, when you can technically run faster — instills in you a kind of calmness. It delays gratification of you achieving the nice running numbers. It humbles you good. It prepares you to keep on running long instead of short and quick.
 
@@ -40,6 +36,6 @@ After 6 months of running, both fast and slow — on 3rd of April, I was able to
 
 These distances may be little to many who are intermediate or expert runners, or to my future self *(hopefully)* when I look back at this life event, but at that moment, I was very proud of this seemingly insignificant achievement.
 
-Today, I registered myself for the [Berlin Half Marathon in 2026.](https://www.generali-berliner-halbmarathon.de/en/registration/run) Onwards and Upwards!
+Today, I registered myself for the [Berlin Half Marathon in 2026](https://www.generali-berliner-halbmarathon.de/en/registration/run) lottery. I hope I get in, finish it, and come back to this blog to appreciate and be grateful at how far I’ve come. A man can dream!
 
 {{< figure src="/10k.jpeg#center" caption="" width="80%" >}}
