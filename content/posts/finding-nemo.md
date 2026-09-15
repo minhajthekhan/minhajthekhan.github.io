@@ -26,18 +26,19 @@ Instead of all that, lets start with an opinion: Working as a Software Engineer 
 
 The harsh reality is that we can't go back. Or can we?
 
-Talking about the same trunk of a different tree - I attempted to "go back" in the pursuit of feeling again: a sense of belonging, real relationships, and most importantly, fun - I travelled back to Karachi in November last year. What I was searching for was present, but only partly. Same roads, same restaurants, same potholes from twenty-three years ago - not much had changed, but the people. They had moved to different countries, became busy parents, or were just struggling in the deadly 9 - 5 in this tough economy. 
+In the pursuit of a sense of belonging, real relationships, and most importantly, the fun - I travelled back to Karachi in November last year. What I was searching for was present, but only partly. Same roads, same restaurants, same potholes from twenty-three years ago. Not much had changed, except the people. They had moved to different countries, became busy parents, or were just struggling in the deadly 9 - 5 in this tough economy. 
 
 Well, It's not as sadistic as it sounds.
-Some of the old folk did take the time out, and when they did, and we would succeed in Finding Nemo.
+Some of the old folk did take the time out, and when they did, we would succeed in Finding Nemo.
 
-I spent about 4 - 5 months in Karachi, having fun and not at the same time. At the times of "not" - and a lot of time on my hands, I tried to fill it with Running. 
-There was no consistency, of course. Additionally, the numbers would be super shitty. I couldn't run a 5k with easy pace without my heart rate shooting high.
-Today, after almost 6 months of being back at Running, I ran fifteen kilometers, and to my surprise, 75% of the distance I ran in the pace I want to run the half marathon in – and it didn't feel too hard.
+I spent about 4 - 5 months in Karachi, having fun and not at the same time. At the times of "not", supplemented by a lot of free hours at hand, I tried to fill it with running again. 
+There was no consistency, of course. Additionally, the numbers would be super dissapointing. I couldn't run a 5k with easy pace without my heart rate shooting high.
+Today, after almost 6 months of being back at Running, I ran fifteen kilometers, and to my surprise, 75% of the distance I ran was at the pace I want to run the half marathon at – and it didn't feel too hard!
 
-If I was to name the trunk of the tree - or both the trees -  I would carve the word Acceptance on it. Accepting that change is inevitable. 
+If I was to name the trunk of the tree I would carve the word Acceptance on it.
+
+To end with the fruit from the tree:
+
+> _“Pain is inevitable. Suffering is optional" - Haruki Murakami_
 
 
-Finally, to the fruit of the tree. A beautiful quote:
-
-“Pain is inevitable. Suffering is optional" - Haruki Murakami
