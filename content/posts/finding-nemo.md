@@ -9,9 +9,6 @@ tags: ["Running"]
 
 ---
 
-{{< figure src="/finding-nemo.jpeg#center" caption="" width="30%" >}}
-
-
 Running. It has become something that I just do, now.
 
 To challenge this idea that my brain keeps convincing me of, I registered to run a half marathon in October, and put myself to the test.
@@ -44,3 +41,5 @@ To end with the fruit from the tree:
 
 
 I leave it to you to carve its name on the trunk.
+
+{{< figure src="/finding-nemo.jpeg#center" caption="" width="30%" >}}
