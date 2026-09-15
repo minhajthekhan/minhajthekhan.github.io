@@ -9,7 +9,7 @@ tags: ["Running"]
 
 ---
 
-{{< figure src="/finding-nemo.jpeg#center" caption="" width="80%" >}}
+{{< figure src="/finding-nemo.jpeg#center" caption="" width="30%" >}}
 
 
 Running. It has become something that I just do, now.
