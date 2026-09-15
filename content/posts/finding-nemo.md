@@ -9,6 +9,9 @@ tags: ["Running"]
 
 ---
 
+{{< figure src="/finding-nemo.jpeg#center" caption="" width="80%" >}}
+
+
 Running. It has become something that I just do, now.
 
 To challenge this idea that my brain keeps convincing me of, I registered to run a half marathon in October, and put myself to the test.
