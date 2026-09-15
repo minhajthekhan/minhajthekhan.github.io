@@ -9,9 +9,6 @@ tags: ["Running"]
 
 ---
 
-
-
-
 Running. It has become something that I just do, now.
 
 To challenge this idea that my brain keeps convincing me of, I registered to run a half marathon in October, and put myself to the test.
@@ -42,6 +39,9 @@ If I was to name the trunk of the tree - or both the trees -  I would carve the 
 
 
 Finally, to the fruit of the tree. A beautiful quote:
+
 “Pain is inevitable. Suffering is optional"
+
 - Haruki Murakami
+
 What I Talk About When I Talk About Running
