@@ -22,7 +22,7 @@ I had decided that I was going to get back to running as soon as I landed back i
 
 Even though I had run 10k before, running only 2–3 kilometres, even at a slower pace, was challenging. I went on with a walk/run program with [Runna](https://www.runna.com/), and in six weeks I was back to running 5k.
 
-On 30 July, one ambitious day, I registered for a half marathon in November. I thought to myself that it would be a nice challenge to take on, and I had around four months to train for it.
+On 30 July, one ambitious day, I registered for a half marathon in October. I thought to myself that it would be a nice challenge to take on, and I had around four months to train for it.
 
 During the training block, some days felt amazing; on other days, it felt like I had made no progress at all, even though I had been running for weeks. Nonetheless, the block was no short of happy moments: I ran a [sub-30-minute 5k](https://www.strava.com/activities/19358573192) twice, ran with friends for [Wings for Life](https://www.wingsforlifeworldrun.com/en), [took my little one (Umar) for a Parkrun](https://www.strava.com/activities/20523944696) (we cut it short to 3k), and ran all the way from Spandau to Berlin Central Station.
 
