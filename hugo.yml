@@ -2,6 +2,19 @@ baseURL: "https://minhajthekhan.github.io/"
 title: Minhaj Uddin Khan
 paginate: 5
 theme: PaperMod
+disableKinds:
+  - page
+  - section
+  - taxonomy
+  - term
+  - RSS
+  - sitemap
+  - robotsTXT
+  - 404
+outputs:
+  home:
+    - HTML
+staticDir: []
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -129,6 +142,5 @@ markup:
     # guessSyntax: true
     lineNos: true
     # style: monokai
-
 
 
